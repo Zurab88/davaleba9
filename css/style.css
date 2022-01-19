@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 .navigation {
-    max-width: 1290px;
+    width: 1290px;
     height: 105px;
     margin: 0 auto;
     display: flex;
@@ -27,7 +27,6 @@
 }
 .explord {
     font-size: 22px;
-    border: border-box;
     border-right: 1px solid #f0f0f0;
     padding-right: 40px;
 }
@@ -36,13 +35,16 @@
     height: 10px;
     width: 10px;
     color: #6294A2;
-    padding-right: 12px;
+    padding-right: 10px;
+}
+b {
+    font-weight: bolder;
 }
 .blog {
     padding-left: 40px;
 }
-.li a {
-    list-style: none;
+li a {
+    text-decoration: none;
 }
 .home {
     padding-right: 30px;
@@ -50,6 +52,61 @@
 .discover{
     padding-left: 30px;
 }
-.mean {
-    font-style: bold;
+.main {
+    font-weight: bold;
+}
+.footer {
+    height: 235px; 
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footerdiv {
+    height: 165px;
+    width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.6;
+}
+.footerdiv h4::after {
+    content: "© 2020";
+    padding-left: 30px;
+    font-size: 18px;
+}
+.footerdiv h4 {
+    padding-bottom: 35px;
+}
+.footerdiv h6 {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.footerdiv p {
+    font-size: 15px;
+    width: 376px;
+    padding-right: 340px;
+}
+.footexplord {
+    font-size: 22px;
+}
+.footexplord::before {
+    content: "•";
+    height: 10px;
+    width: 10px;
+    color: #6294A2;
+    padding-right: 10px;
+}
+.footerdiv1 {
+    border-right: 1px solid #f0f0f0;
+    padding-right: 60px;
+}
+.footerdiv2 {
+    padding-left: 55px;
+    padding-right: 150px;
+}
+.footerdiv3 {
+    padding-right: 0px;
+    width: 130px;
 }
